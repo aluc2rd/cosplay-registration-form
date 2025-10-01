@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Форма регистрации</title>
+	</head>
+	<body>
+		<header>
+			<h1>Регистрация на косплей-сходку "AniMania"</h1>
+			<p>Заполни анкету, чтобы мы знали, какого героя ждать! Укажи все особенности для нашего общего комфорта.</p>
+		</header>
+		<form action="">
+			<div class="form-group">
+				<label
+					>Введи свое имя
+					<input type="text" name="first-name" class="form-control" required />
+				</label>
+			</div>
+			<div class="form-group">
+				<label
+					>Введи свою фамилию
+					<input type="text" name="last-name" class="form-control" required />
+				</label>
+			</div>
+			<div class="form-group">
+				<label
+					>Введи свой возраст
+					<input type="number" min="13" name="person-age" class="form-control" required />
+				</label>
+			</div>
+			<div class="form-group">
+				<label
+					>Какого персонажа ты косплеишь?
+					<input type="text" name="character-name" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<p>Откуда ваш персонаж</p>
+				<select name="character-source">
+					<option selected disabled value="">Выберите источник</option>
+					<option value="anime">Аниме</option>
+					<option value="game">Игра</option>
+					<option value="film">Фильм</option>
+					<option value="book">Книга</option>
+					<option value="other">Другое</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<p>Тип участия</p>
+				<label
+					>Участвую в конкурсе
+					<input type="radio" value="participant" name="type-of-participation" class="form-control" />
+				</label>
+				<label
+					>Приду пообщаться
+					<input type="radio" value="visitor" name="type-of-participation" class="form-control" />
+				</label>
+				<label
+					>Буду фотографом
+					<input type="radio" value="photographer" name="type-of-participation" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<p>Требуется ли доступ в гримерку?</p>
+				<label
+					>Да
+					<input type="radio" value="yes" name="dressing-room" class="form-control" />
+				</label>
+				<label
+					>Нет
+					<input type="radio" value="no" name="dressing-room" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<p>Особенности костюма</p>
+				<label
+					>Крупный реквизит
+					<input type="checkbox" value="large-props" name="costume-features" class="form-control" />
+				</label>
+				<label
+					>Подсветка
+					<input type="checkbox" value="lighting" name="costume-features" class="form-control" />
+				</label>
+				<label
+					>Запись на фотосессию
+					<input type="checkbox" value="photo-shoot" name="costume-features" class="form-control" />
+				</label>
+				<label
+					>Хрупкий костюм
+					<input type="checkbox" value="fragile-suit" name="costume-features" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<p>Как давно вы интересуетесь/занимаетесь косплеем?</p>
+				<select name="cosplay-experience">
+					<option value="" disabled selected>Укажите ваш опыт</option>
+					<option value="first-time">Первый раз</option>
+					<option value="less-year">Меньше 1 года</option>
+					<option value="1-3-years">1-3 года</option>
+					<option value="more-3-years">Больше 3 лет</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label
+					>Ссылка на портфолио
+					<input type="url" name="portfolio-link" class="form-control" />
+				</label>
+			</div>
+			<div class="form-group">
+				<label
+					>Пожелания или комментарии
+					<textarea name="request" rows="5" placeholder="Ваши пожелания..."></textarea>
+				</label>
+			</div>
+			<div class="form-group">
+				<p>Согласие на фото/видеосъемку</p>
+				<label
+					>Я соглашаюсь на фото- и видеосъемку во время мероприятия
+					<input type="checkbox" name="photo-agreement" value="photo-agreement" class="form-control" required />
+				</label>
+			</div>
+			<button type="submit">Отправить заявку</button>
+		</form>
+	</body>
+</html>
