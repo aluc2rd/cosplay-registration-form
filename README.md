@@ -35,5 +35,5 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-username/cosplay-registration-form.git
+git clone https://github.com/aluc2rd/cosplay-registration-form.git
 ```
