@@ -9,7 +9,7 @@ body {
 	line-height: 1.6;
 	color: #ffffff;
 
-	background-image: url('https://images.scrolller.com/zepto/serene-nature-torii-arch-1920x1080---21qr1udrew.jpg');
+	background-image: url('assets/serene-nature-torii-arch-1920x1080---21qr1udrew.jpg');
 	background-size: cover; /* изображение на весь экран */
 	background-position: center; /* Центрирование изображения */
 	background-attachment: fixed; /* фиксация при прокрутке */
